@@ -7,7 +7,7 @@ import mangaImgPath from "../assets/images/manga.jpg";
 export const products = [
   {
     id: 1,
-    nome: "Maça",
+    nome: "Maçã",
     estoque: 10,
     unidadeMedida: "kg",
     preco: 5.00,

@@ -17,20 +17,20 @@ export default styled.input`
     color: #bcbcbc;
   }
   &:focus {
-    border-color: ${({ theme }) => theme.colors.primary.main};
+    border-color: ${({ theme }) => theme.colors?.primary.main};
   }
 
   ${({ theme, danger }) =>
     danger &&
     css`
       &:hover {
-        border-color: ${theme.colors.danger.light};
+        border-color: ${theme.colors?.danger.light};
       }
       &:active {
-        border-color: ${theme.colors.danger.dark};
+        border-color: ${theme.colors?.danger.dark};
       }
       &:focus {
-        border-color: ${({ theme }) => theme.colors.danger.main};
+        border-color: ${({ theme }) => theme.colors?.danger.main};
       }
     `}
 `;

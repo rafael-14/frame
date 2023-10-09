@@ -23,7 +23,7 @@ export const CardContainer = styled.div`
   width: ${imgsWidthHeight};
   overflow: hidden;
   border-radius: 8px;
-  color: ${({ theme }) => theme.colors.primary.light};
+  color: ${({ theme }) => theme.colors?.primary.light};
   box-shadow: 0px 0px 15px -5px;
   transition: 0.3s;
   animation: ease-in;
@@ -58,7 +58,7 @@ export const CardContent = styled.div`
   }
 
   > div h3 {
-    color: ${({ theme }) => theme.colors.primary.main};
+    color: ${({ theme }) => theme.colors?.primary.main};
     font-size: 30px;
     margin-bottom: 8px;
   }
@@ -80,7 +80,7 @@ export const Receipt = styled.ul`
     position: absolute;
     margin-left: 8px;
     margin-top: -8px !important;
-    color: ${({ theme }) => theme.colors.danger.main};
+    color: ${({ theme }) => theme.colors?.danger.main};
     cursor: pointer;
   }
 `;
